@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>VERMEERSCHBIER</title>
+	<link href="../styles.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+	<header>
+		
+	<a href="../index.html" class="myButton">Home</a>		
+        <a href="soortenbier.html" class="myButton">Soorten bier</a>
+        <a href="Contact.html" class="myButton">Contact</a>
+        <a href="verkooppunten.html" class= "myButton">Verkooppunten</a>
+	</header>
+	<main>
+        <br>
+        <br>
+        <form 
+        action="mailto:vermeersch.bier@gmail.com"
+        method="POST" 
+        enctype="text/plain"> 
+        <label for="voornaam" class="tekst">Voornaam</label>
+            <input type="text" name="voornaam">
+            <br>
+            <br>
+            <label for="achternaam"class="tekst">Achternaam:</label>
+            <input type="text" name="achternaam">
+            <br>
+            <br>
+            <label for="vraag" class="tekst">Ben je geïnteresseerd?</label>
+            <br>
+            <input type="radio" name ="vraag" value="ja"checked/>ja
+            <input type="radio"name="vraag" value="nee" />nee
+            <br>
+            <br>
+            <label for="hobby's" class="tekst">Waarvoor heb je ons nodig?</label>
+            <br>
+          <textarea name="Bericht"> </textarea>
+            <p>
+                    <br>
+                    <label for="Bericht" class="tekst">Email adres:</label>
+              <br/>
+             <input type="email" id="Email" name="Email" required/>
+             
+                <br/>
+               </p>
+               <input type="submit" value="zend">
+        </form>
+        <p> Bij problemen kan je een andere browser gebruiken.
+                <br>
+        <p>Of rechtstreeks een mail sturen naar <strong>vermeerschbier@gmail.com</strong></p>
+	<footer>&copy;2025</footer>
+
+	<script src="../script.js"></script>
+</body>
+
+</html>
